@@ -4,7 +4,6 @@ import { useState } from 'react';
 export default function App() {
   const initialColor = randomColor();
   const [color, setColor] = useState(initialColor);
-  console.log(initialColor);
   return (
     <>
       <h1
