@@ -28,7 +28,7 @@ export default function App() {
           margin: '50px 0px',
         }}
       />
-      <div
+      <div  id="color-display"
         style={{
           fontFamily: 'sans-serif',
           display: 'flex',
@@ -69,7 +69,7 @@ export default function App() {
             boxSizing: 'border-box',
           }}
           onClick={() => {
-            setColor(randomColor);
+            setColor(randomColor());
           }}
         >
           Generate
