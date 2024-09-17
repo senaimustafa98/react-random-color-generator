@@ -72,15 +72,7 @@ export default function App() {
             setColor(randomColor);
           }}
         >
-          <p
-            style={{
-              fontFamily: '-moz-initial',
-              textAlign: 'center',
-              fontSize: '45px',
-            }}
-          >
-            Generate
-          </p>
+          Generate
         </button>
       </div>
     </>
