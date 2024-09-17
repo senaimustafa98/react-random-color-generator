@@ -28,7 +28,8 @@ export default function App() {
           margin: '50px 0px',
         }}
       />
-      <div  id="color-display"
+      <div
+        id="color-display"
         style={{
           fontFamily: 'sans-serif',
           display: 'flex',
